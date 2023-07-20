@@ -16,6 +16,13 @@
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
+    <script type="text/javascript">
+      function ShowNowYear() {
+        var now = new Date();
+        var year = now.getFullYear();
+        document.write(year);
+      }
+    </script>
   </head>
 
   <body class="is-preload">
@@ -74,7 +81,7 @@
         <!-- Work -->
         <article id="work">
           <h2 class="major">Work</h2>
-          <span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+          <span class="image main"><img src="images/guchan.png" alt="" /></span>
           <p>
             My systems programming projects can be found
             <a href="https://github.com/b08902094/Systems-Programming">here</a>.
@@ -85,7 +92,9 @@
         <!-- About -->
         <article id="about">
           <h2 class="major">About</h2>
-          <span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+          <span class="image main"
+            ><img src="images/alex-knight-2EJCSULRwC8-unsplash.jpg" alt=""
+          /></span>
           <h4>Marika Takahashi</h4>
           <p>
             My research interest lies with Human-Computer Interaction (HCI), and
@@ -104,6 +113,11 @@
         <!-- Contact -->
         <article id="contact">
           <h2 class="major">Contact</h2>
+          <span class="image main"
+            ><img
+              src="images/daria-nepriakhina-guiQYiRxkZY-unsplash.jpg"
+              alt=""
+          /></span>
           <!-- <form method="post" onsubmit="sendEmail()">
                     <div class="fields">
                         <div class="field half">
@@ -470,7 +484,12 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
       <!-- Footer -->
       <footer id="footer">
         <p class="copyright">
-          &copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.
+          &copy;
+          <script type="text/javascript">
+            ShowNowYear();
+          </script>
+          Marika Takahashi
+          <a href="https://html5up.net">HTML5 UP</a>.
         </p>
       </footer>
     </div>
